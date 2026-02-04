@@ -16,7 +16,7 @@ public static void main(String[] args) {
                 if(stickNum - stickTake == 0){
                     System.out.println("Round " + i + ": " + stickNum + " at start human takes " + stickTake + ", so " + (stickNum - stickTake) + " remain.");
                     System.out.println("You win!");
-                    stickNum = stickNum -stickTake;
+                    stickNum = stickNum - stickTake;
                 } else{
                     System.out.println("Round " + i + ": " + stickNum + " at start human takes " + stickTake + ", so " + (stickNum - stickTake) + " remain.");
                     stickNum = stickNum - stickTake;
